@@ -32,7 +32,7 @@ This project showcases song data by creating a mountain landscape
     - [ ] Song Mood changes the theme of the website
 - [ ] Different options to choose from
     - [ ] Top 20 most listened songs
-        -  [] short term
+        - [ ] short term
         - [ ] medium term
         - [ ] long term
     - [ ] Search for landscape based on artist
