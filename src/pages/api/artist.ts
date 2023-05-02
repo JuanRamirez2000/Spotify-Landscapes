@@ -1,3 +1,4 @@
+/*
 import { grabArtistInfo } from "~/lib/spotify";
 import type { NextApiRequest, NextApiResponse } from "next";
 import { getToken } from "next-auth/jwt";
@@ -19,3 +20,4 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 };
 
 export default handler;
+*/

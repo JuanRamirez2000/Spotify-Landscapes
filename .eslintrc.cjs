@@ -34,7 +34,8 @@ const config = {
       {
         "checksVoidReturn": false
       }
-    ]
+    ],
+    "@typescript-eslint/restrict-plus-operands": "warn"
   },
 };
 

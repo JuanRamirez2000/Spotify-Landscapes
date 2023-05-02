@@ -118,14 +118,14 @@ const drawMountain = (
   mean /= nPoints;
   //* Height offset of an individual mountain
   for (let i = 0; i <= nPoints; i++) {
-    mountain[i] = p5.height * (1 - position) + mountain[i] - mean;
+    mountain[i] = p5.height * (1 - position) + mountain[i]! - mean;
   }
 
   //* Draw the mountain
   p5.beginShape();
   p5.vertex(0, p5.height);
   for (let i = 0; i <= nPoints; i++) {
-    p5.vertex((i / nPoints) * p5.width, mountain[i]);
+    p5.vertex((i / nPoints) * p5.width, mountain[i]!);
   }
   p5.vertex(p5.width, p5.height);
   p5.endShape(p5.CLOSE);
