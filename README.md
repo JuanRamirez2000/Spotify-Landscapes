@@ -1,28 +1,45 @@
-# Create T3 App
+# Landscapes based on spotify song data!
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This project showcases song data by creating a mountain landscape
 
-## What's next? How do I make an app with this?
+## The tech used in the website:
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+### Frontend tech
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- ReactJS
+- TypescriptJS
+- TailwindCSS
+- DaisyUI
+- React Query
+- P5.js
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+### Full Stack Tech
+- NextJS
+- NextAuth
 
-## Learn More
+### Other tech
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- Vercel
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### Current and Future Additions
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- [x] Spotify Secure Sign In
+- [x] Gernative music based on
+    - [x] Song Amplitude makes mountains more jagged
+    - [x] Song Danceability provides more stars/clouds in the sky
+    - [x] Song Danceability (if greater that 50%) provides a Sun/Moon
+    - [x] Song Mode (Major/Minor) changes the day/night cycle
+    - [] Song Mood changes the theme of the website
+- [] Different options to choose from
+    - [] Top 20 most listened songs
+        - [] short term
+        - [] medium term
+        - [] long term
+    - [] Search for landscape based on artist
+    - [] Search for landscape based on a specific song
+    - [] Search for landscape based on a playlist 
 
-## How do I deploy this?
+## Lessons learned:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- Auth
+- Creating graphics with P5.js
