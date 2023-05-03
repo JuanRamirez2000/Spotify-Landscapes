@@ -72,7 +72,7 @@ const Home: NextPage = () => {
           <div className="flex flex-col-reverse items-center gap-8 md:inline-grid md:grid-cols-2 md:justify-items-center">
             <div className="mask mask-hexagon-2">
               <Image
-                src="/images/Desktop_Example.png"
+                src="/images/exampleLandscape.png"
                 height={600}
                 width={600}
                 alt="Example Landscape"
