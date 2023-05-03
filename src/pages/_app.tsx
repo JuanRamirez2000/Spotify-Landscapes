@@ -1,7 +1,6 @@
 import { type AppType } from "next/app";
 import { type Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
-
 import "~/styles/globals.css";
 import "~/styles/main.css";
 import {
@@ -12,7 +11,6 @@ import {
 import type { DehydratedState } from "@tanstack/react-query";
 import { useState } from "react";
 import Layout from "~/layouts/Layout";
-
 const MyApp: AppType<{
   session: Session | null;
   dehydratedState: DehydratedState;
