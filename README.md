@@ -29,7 +29,7 @@ This project showcases song data by creating a mountain landscape
     - [x] Song Danceability provides more stars/clouds in the sky
     - [x] Song Danceability (if greater that 50%) provides a Sun/Moon
     - [x] Song Mode (Major/Minor) changes the day/night cycle
-    - [ ] Song Mood changes the theme of the website
+    - [x] Song Mood changes the theme of the website
 - [ ] Different options to choose from
     - [ ] Top 20 most listened songs
         - [ ] short term
