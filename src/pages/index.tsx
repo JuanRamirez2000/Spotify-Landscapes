@@ -2,8 +2,6 @@ import { type NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowDownCircleIcon } from "@heroicons/react/24/outline";
-import { Leckerli_One } from "next/font/google";
-const leckerli = Leckerli_One({ weight: "400", subsets: ["latin"] });
 
 const Home: NextPage = () => {
   return (
@@ -11,9 +9,7 @@ const Home: NextPage = () => {
       <section className="hero min-h-screen">
         <div className="hero-content text-center">
           <div className="max-w-xl">
-            <h1
-              className={`${leckerli.className} bg-gradient-to-r from-secondary-focus to-primary-focus bg-clip-text text-4xl font-extrabold uppercase text-transparent md:text-7xl`}
-            >
+            <h1 className="bg-gradient-to-r from-secondary-focus to-primary-focus bg-clip-text text-4xl font-extrabold uppercase text-transparent md:text-7xl">
               Spotify Landscapes
             </h1>
             <p className="py-8 text-xl md:text-3xl">
@@ -25,7 +21,7 @@ const Home: NextPage = () => {
         <ArrowDownCircleIcon className="absolute bottom-0 m-6 h-10 w-10 animate-bounce text-secondary-focus md:h-16 md:w-16" />
       </section>
       <section>
-        <h2 className="mb-10 text-center text-4xl font-bold md:text-6xl">
+        <h2 className="my-20 text-center text-4xl font-bold md:text-6xl">
           Heres how it works!
         </h2>
         <div className="flex min-h-screen flex-col justify-evenly gap-32">
@@ -69,7 +65,7 @@ const Home: NextPage = () => {
               </pre>
             </div>
           </div>
-          <div className="flex flex-col-reverse items-center gap-8 md:inline-grid md:grid-cols-2 md:justify-items-center">
+          <div className="flex flex-col-reverse items-center gap-8  py-32 md:inline-grid md:grid-cols-2 md:justify-items-center">
             <div className="mask mask-hexagon-2">
               <Image
                 src="/images/exampleLandscape.png"

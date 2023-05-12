@@ -15,16 +15,7 @@ const MyApp: AppType<{
   session: Session | null;
   dehydratedState: DehydratedState;
 }> = ({ Component, pageProps: { session, ...pageProps } }) => {
-  const [queryClient] = useState(
-    () =>
-      new QueryClient({
-        defaultOptions: {
-          queries: {
-            refetchOnWindowFocus: false,
-          },
-        },
-      })
-  );
+  const [queryClient] = useState(() => new QueryClient());
 
   return (
     <QueryClientProvider client={queryClient}>
